@@ -1,0 +1,114 @@
+<!--Zachary Hastings-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+    <title>UAT Space</title>
+    <script>
+        //this script tag allows us to use JavaScript in an HTML
+        function Blastoff()
+        
+        {
+            // variables for the JAvaScript
+            var Countdown = 10;
+            var timeoout =10000;
+            setTimeout(() => {
+                document.getElementById("Blastoff").innerHTML = "Blast Off!!";
+                Countdown =Countdown -1;
+                
+
+            }, timeoout)
+            timeoout = timeoout -1000;
+            //
+            setTimeout(() => {
+                document.getElementById("Blastoff").innerHTML = Countdown;
+                Countdown =Countdown -1;
+
+            }, timeoout)
+            timeoout = timeoout -1000;            
+           // 
+            setTimeout(() => {
+                document.getElementById("Blastoff").innerHTML = Countdown;
+                Countdown =Countdown -1;
+
+            }, timeoout)
+            timeoout = timeoout -1000;            
+            //
+            setTimeout(() => {
+                document.getElementById("Blastoff").innerHTML = Countdown;
+                Countdown =Countdown -1;
+
+            }, timeoout)
+            timeoout = timeoout -1000;            
+            //
+            setTimeout(() => {
+                document.getElementById("Blastoff").innerHTML = Countdown;
+                Countdown =Countdown -1;
+
+            }, timeoout)
+            timeoout = timeoout -1000;            
+            //
+            setTimeout(() => {
+                document.getElementById("Blastoff").innerHTML = Countdown;
+                Countdown =Countdown -1;
+
+            }, timeoout)
+            timeoout = timeoout -1000;            
+            //
+            setTimeout(() => {
+                document.getElementById("Blastoff").innerHTML = Countdown;
+                Countdown =Countdown -1;
+
+            },timeoout)
+            timeoout = timeoout -1000;            
+            //
+            setTimeout(() => {
+                document.getElementById("Blastoff").innerHTML = Countdown;
+                Countdown =Countdown -1;
+
+            }, timeoout)
+            timeoout = timeoout -1000;            
+            //
+            setTimeout(() => {
+                document.getElementById("Blastoff").innerHTML = Countdown;
+                Countdown =Countdown -1;
+
+            }, timeoout)
+            timeoout = timeoout -1000;            
+            //
+            setTimeout(() => {
+                document.getElementById("Blastoff").innerHTML = Countdown;
+                Countdown =Countdown -1;
+
+            }, timeoout)
+            timeoout = timeoout -1000;            
+            //
+            setTimeout(() => {
+                document.getElementById("Blastoff").innerHTML = Countdown;
+                Countdown =Countdown -1;
+
+            }, timeoout)
+            timeoout = timeoout -1000;
+        }
+    </script>
+</head>
+<!--i when with a black background to be easy on the eyes-->
+<style>
+    body {background-color: rgb(0, 0, 0);}
+    h1 {color: yellow;}
+    h2 {color: rgb(228, 4, 4);}
+    p {color: rgb(0, 255, 0);}
+</style>
+<body>
+     <!--image was pervited by UAT in canves-->
+    <img src="UATspaceLogo.jpg">
+    <h1>UAT Space!!</h1>
+     <!--This is the explnation of the wed page-->
+    <p>This is to blast the UAT rocket off to space</p>
+   <!--countdown button-->
+    <h2>Countdown</h2>
+
+    <button type="button" onclick="Blastoff()">Blast Off</button>
+    <p id="Blastoff">10</p>
+</body>
+</html>
